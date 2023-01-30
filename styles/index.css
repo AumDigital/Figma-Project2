@@ -17,6 +17,10 @@
 }
 
 .main-title {
+    max-width: 495px;
+    width: 100%;
+    margin-top: 208px;
+    margin-left: 190px;
     font-family: 'Ramaraja', serif;
     font-style: normal;
     font-weight: 400;
@@ -25,4 +29,44 @@
     /* or 106% */
     letter-spacing: 0.02em;
     color: #1B0A42;
+    
+}
+
+.main-info {
+    max-width: 583px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+
+    }
+
+.main-btn {
+    width: 152px;
+    height: 63px;
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: #33A2E0;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: none;
+    }
+
+section {
+    display: inline-block;
 }
