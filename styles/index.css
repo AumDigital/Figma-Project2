@@ -28,6 +28,11 @@
     margin-left: 97px;
 }
 
+.nav-item:hover {
+    text-decoration: underline;
+    color:#33A2E0; 
+}
+
 .nav-link {
     text-decoration: none;
     max-width: 200px;
@@ -52,7 +57,14 @@
     margin-left: 209px;  
 }
 
+.nav-signinitem:hover {
+    text-decoration: underline;
+    color: #33A2E0;
+}
+
+
 .signin-link {
+    text-decoration: none;
     max-width: 100px;
     width: 100%;
     font-family: 'Roboto', sans-serif;
@@ -71,6 +83,7 @@
     margin-top: 30px;
     margin-right: 67px;
 }
+
 
 .custom-button {
     height: 60px;
